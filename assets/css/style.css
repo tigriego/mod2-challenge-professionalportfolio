@@ -51,9 +51,9 @@ p {
 
 main {
   padding: 20px;
-    background-color: black;
+    background-color: darkslategray;
     color: whitesmoke;
-    
+
 }
 
 #mainphoto {
@@ -76,5 +76,23 @@ h1 {
   font-size: 40px;
 }
 
+.container {
+  text-align: center;
+}
 
+.about-me,
+.work {
+  display: inline-block;
+  vertical-align: top;
+  width: 45%;
+  margin: 20px;
+}
 
+div {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+#about {
+  
+}
