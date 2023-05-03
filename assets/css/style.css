@@ -14,6 +14,7 @@ footer {
   padding: 20px;
   background-color: whitesmoke;
   color: black;
+  border-bottom: 5px solid #cea241;
   
 }
 
@@ -39,19 +40,22 @@ header nav ul li {
   margin-left: 25px;
 }
 
+
 a {
   color: black;
   text-decoration: none;
 }
 
 p {
-  font-size: 16px;
+  font-size: 20px;
+  
 }
 
 main {
   padding: 20px;
     background-color: black;
     color: whitesmoke;
+    
 }
 
 footer h1 {
@@ -76,7 +80,7 @@ footer nav ul li {
 }
 
 #mainphoto {
-height: 800px;
+height: 700px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
@@ -84,5 +88,31 @@ height: 800px;
     background-position: center;
   }
 
+
+
+section {
+
+  margin-left: 5%;
+    margin-bottom: 2%;
+    
+    
 }
+
+h1 {
+  font-size: 40px;
+}
+
+section {
+  margin-left: 1%;
+  margin-bottom: 2%;
+  border: 1px solid white;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 40px;
+  
+}
+
+
 
