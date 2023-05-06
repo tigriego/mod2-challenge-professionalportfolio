@@ -1,99 +1,72 @@
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+.container {
+  display: flex;
+  width: 800px;
+  margin: 0 auto;
+  flex-wrap: wrap;
 }
 
-body {
-  
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.row {
+  display: flex;
+  flex: 0 0 100%;
+  flex-wrap: wrap;
 }
+
+.col {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.col-1 {
+  flex: 0 0 15%;
+  background-color: gray;
+}
+
+.col-2 {
+  flex: 0 0 85%;
+  background-color: cadetblue;
+}
+
+.col-half {
+  flex: 0 0 50%;
+}
+
+.col-full {
+  flex: 0 0 100%;
+}
+
 
 header,
 footer {
-  padding: 20px;
+  padding: 10px;
   background-color: whitesmoke;
   color: black;
   border-bottom: 5px solid #cea241;
-  
+
 }
 
-header h1, footer h1 {
+header h1,
+footer h1 {
   display: inline-block;
-  font-size: 48px;
+  font-size: 38px;
 }
 
-header nav, footer nav {
-  padding-top: 15px;
+header nav,
+footer nav {
+  padding-top: 10px;
   margin-right: 20px;
   float: right;
   font-size: 20px;
 }
 
-header nav ul, footer nav ul {
+header nav ul,
+footer nav ul {
   list-style-type: none;
 }
 
-header nav ul li, footer nav ul li {
+header nav ul li,
+footer nav ul li {
   display: inline-block;
   margin-left: 25px;
 }
-
-a {
-  color: black;
-  text-decoration: none;
-}
-
-p {
-  font-size: 20px;
-  
-}
-
-main {
-  padding: 20px;
-    background-color: darkslategray;
-    color: whitesmoke;
-
-}
-
-#mainphoto {
-height: 700px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
-  }
-
-section {
-  margin-left: 1%;
-  margin-bottom: 2%;
-  border: 1px solid white;
-  padding: 10px;
-}
-
-h1 {
-  font-size: 40px;
-}
-
-.container {
-  text-align: center;
-}
-
-.about-me,
-.work {
-  display: inline-block;
-  vertical-align: top;
-  width: 45%;
-  margin: 20px;
-}
-
-div {
-  padding-top: 50px;
-  padding-bottom: 100px;
-}
-
-#about {
-
-}
-
