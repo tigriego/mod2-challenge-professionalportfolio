@@ -4,15 +4,18 @@
 
 .container {
   display: flex;
-  width: 800px;
+  width: 900px;
   margin: 0 auto;
   flex-wrap: wrap;
+ 
+  
 }
 
 .row {
   display: flex;
   flex: 0 0 100%;
   flex-wrap: wrap;
+ 
 }
 
 .col {
@@ -20,24 +23,28 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  
 }
 
 .col-1 {
   flex: 0 0 15%;
-  background-color: gray;
+
 }
 
 .col-2 {
   flex: 0 0 85%;
-  background-color: cadetblue;
+  background-color: ;
+  
 }
 
 .col-half {
   flex: 0 0 50%;
+  
 }
 
 .col-full {
   flex: 0 0 100%;
+  
 }
 
 
@@ -46,7 +53,7 @@ footer {
   padding: 10px;
   background-color: white;
   color: black;
-  border-bottom: 5px solid black;
+  border-bottom: 0.5px solid black;
 
 }
 
@@ -62,17 +69,20 @@ footer nav {
   margin-right: 20px;
   float: right;
   font-size: 30px;
+  
 }
 
 header nav ul,
 footer nav ul {
   list-style-type: none;
+  
 }
 
 header nav ul li,
 footer nav ul li {
   display: inline-block;
   margin-left: 25px;
+  
 }
 
 header {
@@ -88,7 +98,7 @@ header img {
   width: 100%;
   height: auto;
   z-index: -1;
-opacity: 30%;
+opacity: 10%;
 }
 
 .header-image-container   {
@@ -105,7 +115,27 @@ body {
 }
 
 header nav ul li:hover {
-  background-color: whitesmoke;
+  background-color: turquoise;
   color: black;
+ border-color: black;
+ border: 0.5px solid black;
   
+}
+
+.line {
+  border-right: 0.5px solid black;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  padding-top: 50px;
+    padding-bottom: 85px;
+}
+
+#contact1 {
+  display: flex
 }
