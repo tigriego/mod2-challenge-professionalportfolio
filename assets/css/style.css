@@ -51,6 +51,7 @@ footer {
   background-color: white;
   color: black;
   border-bottom: 0.5px solid black;
+  border-top: 0.5px solid black;
 
 }
 
@@ -111,8 +112,9 @@ main {
     }
   
     #work img:not(:first-child) {
-      width: 50%;
+      width: 5%;
     }
+    
 }
 
 body {
@@ -141,6 +143,12 @@ li {
     padding-bottom: 85px;
 }
 
-#contact1 {
-  display: flex
+
+#work img {
+  margin: 5%;
+
+  border: 10px solid turquoise;
+  margin-bottom: 10%;
+  opacity: 0.7;
+  background-color: lightblue;
 }
