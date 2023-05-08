@@ -7,15 +7,12 @@
   width: 900px;
   margin: 0 auto;
   flex-wrap: wrap;
- 
-  
 }
 
 .row {
   display: flex;
   flex: 0 0 100%;
-  flex-wrap: wrap;
- 
+
 }
 
 .col {
@@ -98,7 +95,7 @@ header img {
   width: 100%;
   height: auto;
   z-index: -1;
-opacity: 20%;
+
 }
 
 .header-image-container   {
@@ -107,7 +104,15 @@ opacity: 20%;
 
 main {
   position: relative;
-  padding-top: 812px;
+  padding-top: 2300px;
+  font-size: 25px;
+  #work img:first-child {
+      width: 100%;
+    }
+  
+    #work img:not(:first-child) {
+      width: 50%;
+    }
 }
 
 body {
