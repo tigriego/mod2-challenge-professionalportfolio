@@ -7,7 +7,7 @@ deployed portfolio of work samples
 
 Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
 
-- This prework guide was created to learn the steps of setting up a reposity, learning how to push and pull from the online repository, as well as containing notes for HTML, CSS, Git, and JavaScript.
+- This is chal 2 homework
 
 
 
