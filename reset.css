@@ -44,10 +44,3 @@ ul {
   list-style: none;
 }
 
-@media screen and (max-width: 768px) {
-
-  main,
-  nav {
-    flex-direction: column;
-  }
-}
